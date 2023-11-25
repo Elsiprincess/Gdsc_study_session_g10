@@ -1,0 +1,18 @@
+package test;
+import java.io.*;
+public class test {
+Public static void main(String[] args)
+{
+BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
+int kg;
+System.out.println("enter mass");
+kg=Integer.parseInt(reader..readline());
+System.out.println("enter height");
+double height=Double.parseDouble(reader.readline());
+height=height/100;
+double BMI=kg/(height *2);
+}
+}
+
+
+
